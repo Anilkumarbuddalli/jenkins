@@ -1,9 +1,10 @@
 pipeline {
   agent any
   stages {
-    stage('') {
+    stage('build') {
       steps {
-        echo 'node is running'
+        echo 'this is build'
+        build 'a'
       }
     }
 
