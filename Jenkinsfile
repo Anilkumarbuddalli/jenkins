@@ -15,11 +15,5 @@ pipeline {
       }
     }
 
-    stage('assigning a pipeline') {
-      steps {
-        build 'pipeline1'
-      }
-    }
-
   }
 }
